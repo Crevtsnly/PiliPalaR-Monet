@@ -127,16 +127,6 @@ class _AboutPageState extends State<AboutPage> {
             ),
           ),
           ListTile(
-            onTap: () => _aboutController.feedback(context),
-            leading: const Icon(Icons.feedback_outlined),
-            title: const Text('问题反馈'),
-            trailing: Icon(
-              Icons.arrow_forward_ios,
-              size: 16,
-              color: outline,
-            ),
-          ),
-          ListTile(
             onTap: () => _aboutController.logs(),
             leading: const Icon(Icons.bug_report_outlined),
             title: const Text('错误日志'),
