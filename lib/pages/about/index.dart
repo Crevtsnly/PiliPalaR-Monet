@@ -68,7 +68,7 @@ class _AboutPageState extends State<AboutPage> {
               const Spacer(),
               Text(
                 '使用Flutter开发的B站第三方客户端
-                基于PiliPalaX修改的第三方莫奈图标',
+               基于PiliPalaX修改的第三方莫奈图标版',
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Theme.of(context).colorScheme.outline),
                 semanticsLabel: '与你一起，发现不一样的世界',
