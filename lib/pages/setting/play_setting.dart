@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-import 'package:PiliPalaX/pages/setting/widgets/select_dialog.dart';
-import 'package:PiliPalaX/plugin/pl_player/index.dart';
-import 'package:PiliPalaX/services/service_locator.dart';
-import 'package:PiliPalaX/utils/storage.dart';
+import 'package:PiliPalaR/pages/setting/widgets/select_dialog.dart';
+import 'package:PiliPalaR/plugin/pl_player/index.dart';
+import 'package:PiliPalaR/services/service_locator.dart';
+import 'package:PiliPalaR/utils/storage.dart';
 
 import '../../models/video/play/subtitle.dart';
 import 'widgets/switch_item.dart';

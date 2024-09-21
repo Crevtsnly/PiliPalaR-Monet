@@ -3,10 +3,10 @@ import 'dart:async';
 import 'package:easy_debounce/easy_throttle.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:PiliPalaX/common/skeleton/video_card_h.dart';
-import 'package:PiliPalaX/common/widgets/http_error.dart';
-import 'package:PiliPalaX/common/widgets/network_img_layer.dart';
-import 'package:PiliPalaX/common/widgets/no_data.dart';
+import 'package:PiliPalaR/common/skeleton/video_card_h.dart';
+import 'package:PiliPalaR/common/widgets/http_error.dart';
+import 'package:PiliPalaR/common/widgets/network_img_layer.dart';
+import 'package:PiliPalaR/common/widgets/no_data.dart';
 
 import '../../models/user/sub_folder.dart';
 import '../../utils/utils.dart';

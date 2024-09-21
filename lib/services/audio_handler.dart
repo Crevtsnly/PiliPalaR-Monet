@@ -1,17 +1,17 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:hive/hive.dart';
-import 'package:PiliPalaX/models/bangumi/info.dart';
-import 'package:PiliPalaX/models/video_detail_res.dart';
-import 'package:PiliPalaX/plugin/pl_player/index.dart';
-import 'package:PiliPalaX/utils/storage.dart';
+import 'package:PiliPalaR/models/bangumi/info.dart';
+import 'package:PiliPalaR/models/video_detail_res.dart';
+import 'package:PiliPalaR/plugin/pl_player/index.dart';
+import 'package:PiliPalaR/utils/storage.dart';
 
 Future<VideoPlayerServiceHandler> initAudioService() async {
   return await AudioService.init(
     builder: () => VideoPlayerServiceHandler(),
     config: const AudioServiceConfig(
-      androidNotificationChannelId: 'com.orz12.PiliPalaX.audio',
-      androidNotificationChannelName: 'Audio Service PiliPalaX',
+      androidNotificationChannelId: 'com.crevtsnly.monet.pro.audio',
+      androidNotificationChannelName: 'Audio Service PiliPalaR',
       androidNotificationOngoing: true,
       androidStopForegroundOnPause: true,
       fastForwardInterval: Duration(seconds: 10),

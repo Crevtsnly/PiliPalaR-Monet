@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:PiliPalaX/utils/storage.dart';
+import 'package:PiliPalaR/utils/storage.dart';
 import 'package:easy_debounce/easy_throttle.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:get/get.dart';
-import 'package:PiliPalaX/common/constants.dart';
-import 'package:PiliPalaX/common/widgets/http_error.dart';
-import 'package:PiliPalaX/common/widgets/no_data.dart';
+import 'package:PiliPalaR/common/constants.dart';
+import 'package:PiliPalaR/common/widgets/http_error.dart';
+import 'package:PiliPalaR/common/widgets/no_data.dart';
 import 'package:waterfall_flow/waterfall_flow.dart';
 
 import '../../../common/skeleton/dynamic_card.dart';

@@ -1,5 +1,5 @@
-import 'package:PiliPalaX/http/danmaku.dart';
-import 'package:PiliPalaX/models/danmaku/dm.pb.dart';
+import 'package:PiliPalaR/http/danmaku.dart';
+import 'package:PiliPalaR/models/danmaku/dm.pb.dart';
 import 'package:flutter/cupertino.dart';
 
 class PlDanmakuController {

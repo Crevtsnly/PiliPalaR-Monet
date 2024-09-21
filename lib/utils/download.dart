@@ -99,8 +99,8 @@ class DownloadUtils {
         quality: 100,
         name: picName,
         fileExtension: 'jpg',
-        // 保存到 PiliPalaX文件夹
-        androidRelativePath: "Pictures/PiliPalaX",
+        // 保存到 PiliPalaR文件夹
+        androidRelativePath: "Pictures/PiliPalaR",
         androidExistNotSave: false,
       );
       SmartDialog.dismiss();

@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-import 'package:PiliPalaX/models/common/dynamic_badge_mode.dart';
-import 'package:PiliPalaX/pages/dynamics/index.dart';
-import 'package:PiliPalaX/pages/home/index.dart';
-import 'package:PiliPalaX/pages/media/index.dart';
-import 'package:PiliPalaX/utils/event_bus.dart';
-import 'package:PiliPalaX/utils/feed_back.dart';
-import 'package:PiliPalaX/utils/storage.dart';
+import 'package:PiliPalaR/models/common/dynamic_badge_mode.dart';
+import 'package:PiliPalaR/pages/dynamics/index.dart';
+import 'package:PiliPalaR/pages/home/index.dart';
+import 'package:PiliPalaR/pages/media/index.dart';
+import 'package:PiliPalaR/utils/event_bus.dart';
+import 'package:PiliPalaR/utils/feed_back.dart';
+import 'package:PiliPalaR/utils/storage.dart';
 import './controller.dart';
 
 class MainApp extends StatefulWidget {

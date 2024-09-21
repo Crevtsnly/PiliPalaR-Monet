@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:PiliPalaX/common/skeleton/video_card_h.dart';
-import 'package:PiliPalaX/common/widgets/animated_dialog.dart';
-import 'package:PiliPalaX/common/widgets/http_error.dart';
-import 'package:PiliPalaX/common/widgets/overlay_pop.dart';
-import 'package:PiliPalaX/common/widgets/video_card_h.dart';
+import 'package:PiliPalaR/common/skeleton/video_card_h.dart';
+import 'package:PiliPalaR/common/widgets/animated_dialog.dart';
+import 'package:PiliPalaR/common/widgets/http_error.dart';
+import 'package:PiliPalaR/common/widgets/overlay_pop.dart';
+import 'package:PiliPalaR/common/widgets/video_card_h.dart';
 import '../../../../common/constants.dart';
 import '../../../../utils/grid.dart';
 import './controller.dart';

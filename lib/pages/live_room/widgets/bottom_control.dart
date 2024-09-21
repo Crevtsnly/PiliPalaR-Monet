@@ -4,10 +4,10 @@ import 'package:floating/floating.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
-import 'package:PiliPalaX/models/video/play/url.dart';
-import 'package:PiliPalaX/pages/live_room/index.dart';
-import 'package:PiliPalaX/plugin/pl_player/index.dart';
-import 'package:PiliPalaX/utils/storage.dart';
+import 'package:PiliPalaR/models/video/play/url.dart';
+import 'package:PiliPalaR/pages/live_room/index.dart';
+import 'package:PiliPalaR/plugin/pl_player/index.dart';
+import 'package:PiliPalaR/utils/storage.dart';
 
 class BottomControl extends StatefulWidget implements PreferredSizeWidget {
   final PlPlayerController? controller;

@@ -6,11 +6,11 @@ import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:PiliPalaX/http/index.dart';
-import 'package:PiliPalaX/models/github/latest.dart';
-import 'package:PiliPalaX/pages/setting/controller.dart';
-import 'package:PiliPalaX/utils/storage.dart';
-import 'package:PiliPalaX/utils/utils.dart';
+import 'package:PiliPalaR/http/index.dart';
+import 'package:PiliPalaR/models/github/latest.dart';
+import 'package:PiliPalaR/pages/setting/controller.dart';
+import 'package:PiliPalaR/utils/storage.dart';
+import 'package:PiliPalaR/utils/utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../utils/cache_manage.dart';
 
@@ -58,7 +58,7 @@ class _AboutPageState extends State<AboutPage> {
             )),
           ),
           ListTile(
-            title: Text('PiliPalaX',
+            title: Text('PiliPalaR',
                 textAlign: TextAlign.center,
                 style: Theme.of(context)
                     .textTheme
@@ -122,7 +122,7 @@ class _AboutPageState extends State<AboutPage> {
             leading: const Icon(Icons.star_outline_outlined),
             title: const Text('Github开源仓库'),
             trailing: Text(
-              'github.com/orz12/PiliPalaX',
+              'github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly',
               style: subTitleStyle,
             ),
           ),
@@ -135,27 +135,6 @@ class _AboutPageState extends State<AboutPage> {
               size: 16,
               color: outline,
             ),
-          ),
-          ListTile(
-            onTap: () => _aboutController.qqGroup(),
-            leading: const Icon(Icons.group_add_outlined),
-            title: const Text('QQ群'),
-            trailing: Text(
-              '392176105',
-              style: subTitleStyle,
-            ),
-          ),
-          ListTile(
-            onTap: () => _aboutController.tgChannel(),
-            leading: const Icon(Icons.group_add_outlined),
-            title: const Text('TG频道'),
-            trailing: Icon(Icons.arrow_forward_ios, size: 16, color: outline),
-          ),
-          ListTile(
-            onTap: () => _aboutController.aPay(),
-            leading: const Icon(Icons.wallet_giftcard_outlined),
-            title: const Text('赞赏'),
-            trailing: Icon(Icons.arrow_forward_ios, size: 16, color: outline),
           ),
           ListTile(
             onTap: () => _aboutController.logs(),
@@ -362,117 +341,9 @@ class AboutController extends GetxController {
   // 跳转github
   githubUrl() {
     launchUrl(
-      Uri.parse('https://github.com/orz12/pilipala'),
+      Uri.parse('https://github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly'),
       mode: LaunchMode.externalApplication,
     );
-  }
-
-  githubRelease() {
-    launchUrl(
-      Uri.parse('https://github.com/guozhigq/pilipala/release'),
-      mode: LaunchMode.externalApplication,
-    );
-  }
-
-  // 从网盘下载
-  panDownload() {
-    Clipboard.setData(
-      const ClipboardData(text: 'pili'),
-    );
-    SmartDialog.showToast(
-      '已复制提取码：pili',
-      displayTime: const Duration(milliseconds: 500),
-    ).then(
-      (value) => launchUrl(
-        Uri.parse('https://www.123pan.com/s/9sVqVv-flu0A.html'),
-        mode: LaunchMode.externalApplication,
-      ),
-    );
-  }
-
-  // 问题反馈
-  feedback(BuildContext context) async {
-    await showDialog(
-      context: context,
-      builder: (context) {
-        return SimpleDialog(
-          title: const Text('问题反馈（建议直接加群反馈）'),
-          children: [
-            ListTile(
-              title: const Text('GitHub Issue'),
-              onTap: () => launchUrl(
-                Uri.parse('https://github.com/orz12/pilipala/issues'),
-                // 系统自带浏览器打开
-                mode: LaunchMode.externalApplication,
-              ),
-            ),
-            // ListTile(
-            //   title: const Text('腾讯兔小巢'),
-            //   onTap: () => launchUrl(
-            //     Uri.parse('https://support.qq.com/embed/phone/637735'),
-            //     // 系统自带浏览器打开
-            //     mode: LaunchMode.externalApplication,
-            //   ),
-            // ),
-          ],
-        );
-      },
-    );
-  }
-
-  // qq群
-  qqGroup() {
-    Clipboard.setData(
-      const ClipboardData(text: '392176105'),
-    );
-    SmartDialog.showToast('已复制QQ群号');
-    try {
-      launchUrl(
-        Uri.parse(
-            'mqqapi://card/show_pslcard?src_type=internal&version=1&uin=392176105&card_type=group&source=qrcode'),
-        mode: LaunchMode.externalApplication,
-      );
-    } catch (e) {
-      print(e);
-    }
-  }
-
-  // tg频道
-  tgChannel() {
-    Clipboard.setData(
-      const ClipboardData(text: 'https://t.me/+162zlPtZlT9hNWVl'),
-    );
-    SmartDialog.showToast(
-      '已复制，即将在浏览器打开',
-      displayTime: const Duration(milliseconds: 500),
-    ).then(
-      (value) => launchUrl(
-        Uri.parse('https://t.me/+162zlPtZlT9hNWVl'),
-        mode: LaunchMode.externalApplication,
-      ),
-    );
-  }
-
-  // 官网
-  // webSiteUrl() {
-  //   launchUrl(
-  //     Uri.parse('https://pilipalanet.mysxl.cn/pilipala-x'),
-  //     mode: LaunchMode.externalApplication,
-  //   );
-  // }
-
-  // aPay() {
-  //   try {
-  //     launchUrl(
-  //       Uri.parse('https://pilipalanet.mysxl.cn/pilipalaxadmire'),
-  //       mode: LaunchMode.externalApplication,
-  //     );
-  //   } catch (e) {
-  //     print(e);
-  //   }
-  // }
-  aPay() {
-    SmartDialog.showToast('新接口来不及写了，直接来群里找作者吧');
   }
 
   // 日志

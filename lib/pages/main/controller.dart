@@ -5,12 +5,12 @@ import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:PiliPalaX/http/common.dart';
-import 'package:PiliPalaX/pages/dynamics/index.dart';
-import 'package:PiliPalaX/pages/home/view.dart';
-import 'package:PiliPalaX/pages/media/index.dart';
-import 'package:PiliPalaX/utils/storage.dart';
-import 'package:PiliPalaX/utils/utils.dart';
+import 'package:PiliPalaR/http/common.dart';
+import 'package:PiliPalaR/pages/dynamics/index.dart';
+import 'package:PiliPalaR/pages/home/view.dart';
+import 'package:PiliPalaR/pages/media/index.dart';
+import 'package:PiliPalaR/utils/storage.dart';
+import 'package:PiliPalaR/utils/utils.dart';
 import '../../models/common/dynamic_badge_mode.dart';
 import '../../models/common/nav_bar_config.dart';
 
@@ -63,7 +63,7 @@ class MainController extends GetxController {
       if (selectedIndex != 0) {
         pageController.jumpTo(0);
       }
-      SmartDialog.showToast("再按一次退出PiliPalaX");
+      SmartDialog.showToast("再按一次退出PiliPalaR");
       return; // 不退出应用
     }
     SystemNavigator.pop(); // 退出应用

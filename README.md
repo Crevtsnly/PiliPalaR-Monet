@@ -1,24 +1,24 @@
 <div align="center">
-    <img width="200" height="200" src="https://github.com/orz12/PiliPalaX/blob/main/assets/images/logo/logo_android.png">
+    <img width="200" height="200" src="https://github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly/blob/main/assets/images/logo/logo_android.png">
 </div>
 
 
 
 <div align="center">
-    <h1>PiliPalaX</h1>
+    <h1>PiliPalaR</h1>
 <div align="center">
     
-![GitHub repo size](https://img.shields.io/github/repo-size/orz12/pilipala) 
-![GitHub Repo stars](https://img.shields.io/github/stars/orz12/pilipala) 
-![GitHub all releases](https://img.shields.io/github/downloads/orz12/pilipala/total) 
+![GitHub repo size](https://img.shields.io/github/repo-size/Crevtsnly/PiliPalaX-Monet-Crevtsnly) 
+![GitHub Repo stars](https://img.shields.io/github/stars/Crevtsnly/PiliPalaX-Monet-Crevtsnly) 
+![GitHub all releases](https://img.shields.io/github/downloads/Crevtsnly/PiliPalaX-Monet-Crevtsnly/total) 
 </div>
-    <p>使用Flutter开发的BiliBili第三方客户端</p>
+    <p>使用Flutter开发的BiliBili第三方客户端，fork自 https://github.com/orz12/PiliPalaX </p>
     
-<img src="https://github.com/orz12/PiliPalaX/blob/main/assets/screenshots/510shots_so.png" width="32%" alt="home" />
-<img src="https://github.com/orz12/PiliPalaX/blob/main/assets/screenshots/174shots_so.png" width="32%" alt="home" />
-<img src="https://github.com/orz12/PiliPalaX/blob/main/assets/screenshots/850shots_so.png" width="32%" alt="home" />
+<img src="https://github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly/blob/main/assets/screenshots/510shots_so.png" width="32%" alt="home" />
+<img src="https://github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly/blob/main/assets/screenshots/174shots_so.png" width="32%" alt="home" />
+<img src="https://github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly/blob/main/assets/screenshots/850shots_so.png" width="32%" alt="home" />
 <br/>
-<img src="https://github.com/orz12/PiliPalaX/blob/main/assets/screenshots/main_screen.png" width="96%" alt="home" />
+<img src="https://github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly/blob/main/assets/screenshots/main_screen.png" width="96%" alt="home" />
 <br/>
 </div>
 
@@ -162,10 +162,10 @@ Telegram: https://t.me/+162zlPtZlT9hNWVl
 
 ## 声明
 
-此项目（PiliPalaX）是个人为了兴趣而开发, 仅用于学习和测试，请于下载后24小时内删除。
+此项目（PiliPalaR）是个人为了兴趣而开发, 仅用于学习和测试，请于下载后24小时内删除。
 所用API皆从官方网站收集, 不提供任何破解内容。
-在此致敬原作者：[guozhigq/pilipala](https://github.com/guozhigq/pilipala)
-本仓库做了更激进的修改，感谢原作者的开源精神。
+在此致敬原作者：[guozhigq/pilipala](https://github.com/guozhigq/pilipala)和[orz12/PiliPalaX](https://github.com/orz12/PiliPalaX)
+本仓库做了美术方面的资源替换等改动，感谢原作者的开源精神。
 
 感谢使用
 

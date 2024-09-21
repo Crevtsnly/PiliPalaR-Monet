@@ -43,8 +43,8 @@ jobs:
       - name: 修复3.24的stable显示中文不正确问题
         run: |
           cd $FLUTTER_ROOT
-          git config --global user.name "orz12"
-          git config --global user.email "orz12@test.com"
+          git config --global user.name "Crevtsnly"
+          git config --global user.email "Crevtsnly@test.com"
           git cherry-pick d4124bd --strategy-option theirs
           # flutter precache
           flutter --version

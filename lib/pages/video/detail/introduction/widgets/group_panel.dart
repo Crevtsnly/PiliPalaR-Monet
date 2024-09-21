@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
-import 'package:PiliPalaX/common/widgets/http_error.dart';
-import 'package:PiliPalaX/http/member.dart';
-import 'package:PiliPalaX/models/member/tags.dart';
-import 'package:PiliPalaX/utils/feed_back.dart';
+import 'package:PiliPalaR/common/widgets/http_error.dart';
+import 'package:PiliPalaR/http/member.dart';
+import 'package:PiliPalaR/models/member/tags.dart';
+import 'package:PiliPalaR/utils/feed_back.dart';
 
 import '../../../../../utils/utils.dart';
 

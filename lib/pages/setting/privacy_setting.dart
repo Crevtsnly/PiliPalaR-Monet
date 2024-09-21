@@ -3,9 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-import 'package:PiliPalaX/http/interceptor_anonymity.dart';
-import 'package:PiliPalaX/http/member.dart';
-import 'package:PiliPalaX/utils/storage.dart';
+import 'package:PiliPalaR/http/interceptor_anonymity.dart';
+import 'package:PiliPalaR/http/member.dart';
+import 'package:PiliPalaR/utils/storage.dart';
 
 import '../../http/user.dart';
 import '../../models/user/info.dart';

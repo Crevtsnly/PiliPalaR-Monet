@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
-import 'package:PiliPalaX/common/widgets/network_img_layer.dart';
-import 'package:PiliPalaX/http/search.dart';
-import 'package:PiliPalaX/utils/app_scheme.dart';
+import 'package:PiliPalaR/common/widgets/network_img_layer.dart';
+import 'package:PiliPalaR/http/search.dart';
+import 'package:PiliPalaR/utils/app_scheme.dart';
 
 // 富文本
 InlineSpan richNode(item, context) {

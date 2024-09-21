@@ -5,7 +5,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
-import 'package:PiliPalaX/utils/storage.dart';
+import 'package:PiliPalaR/utils/storage.dart';
 import 'package:crypto/crypto.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
@@ -355,7 +355,7 @@ class Utils {
                         onPressed: () {
                           launchUrl(
                             Uri.parse(
-                                "https://github.com/orz12/pilipala/commits/main/"),
+                                "https://github.com/Crevtsnly/PiliPalaX-Monet-Crevtsnly/commits/main/"),
                             mode: LaunchMode.externalApplication,
                           );
                         },
