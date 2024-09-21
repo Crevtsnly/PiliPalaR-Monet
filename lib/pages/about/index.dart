@@ -67,8 +67,7 @@ class _AboutPageState extends State<AboutPage> {
             subtitle: Row(children: [
               const Spacer(),
               Text(
-                '使用Flutter开发的B站第三方客户端
-               基于PiliPalaX修改的第三方莫奈图标版',
+                '使用Flutter开发的B站第三方客户端\n基于PiliPalaX修改的第三方莫奈图标版',
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Theme.of(context).colorScheme.outline),
                 semanticsLabel: '与你一起，发现不一样的世界',
@@ -121,7 +120,7 @@ class _AboutPageState extends State<AboutPage> {
           ListTile(
             onTap: () => _aboutController.githubUrl(),
             leading: const Icon(Icons.star_outline_outlined),
-            title: const Text('Github开源仓库'),
+            title: const Text('Githubの开源仓库'),
             trailing: Text(
               'github.com/Crevtsnly/PiliPalaR-Monet',
               style: subTitleStyle,
