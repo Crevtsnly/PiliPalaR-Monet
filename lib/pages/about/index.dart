@@ -121,7 +121,7 @@ class _AboutPageState extends State<AboutPage> {
           ListTile(
             onTap: () => _aboutController.githubUrl(),
             leading: const Icon(Icons.star_outline_outlined),
-            title: const Text('Githubの开源仓库'),
+            title: const Text('Github开源仓库'),
             trailing: Text(
               'github.com/Crevtsnly/PiliPalaR-Monet',
               style: subTitleStyle,
